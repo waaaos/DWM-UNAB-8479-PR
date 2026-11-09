@@ -1,4 +1,8 @@
-#  Big Bite 
+#  Big Bite
+
+SOLEMNE 2 - DISEÑO E IMPLEMENTACION DE UN BACKEND SEGURO
+CASO 6: BIG BITE
+INTEGRANTES: BENJAMIN BRIONES - PABLO CONTRERAS
 
 Backend del sistema de pedidos online **Big Bite**, una hamburguesería. Está construido con una **arquitectura de microservicios**: un API Gateway REST, un gateway GraphQL para la agregación de datos y un servicio gRPC con *streaming* para la monitorización de entregas.
 
