@@ -1,0 +1,9 @@
+syntax = "proto3";
+package analytics;
+
+service DeliveryTracker {
+    rpc TrackOrder(TrackRequest) returns (stream DeliveryStatus);
+}
+
+message TrackRequest { string pedido_id = 1; }
+message DeliveryStatus { string estado = 1; string ubicacion = 2; string timestamp = 3; }
